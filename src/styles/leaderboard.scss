@@ -1,0 +1,43 @@
+.leaderboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  .leaderboard-details {
+    border-right: 1px solid #cfcece;
+    padding-right: 20px;
+    min-width: 50%;
+    p {
+      margin: 10px 0;
+    }
+    span {
+      float: right;
+    }
+  }
+  .leaderborad-score {
+    margin: 0 auto;
+    border: 1px solid #cfcece;
+    min-width: 15%;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+  .score {
+    background-color: #cfcece;
+    width: 100%;
+    text-align: center;
+    padding: 10% 0;
+    margin: 0;
+    font-weight: 600;
+  }
+  .score-number {
+    text-align: center;
+    background-color: $primary-green;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+  }
+}

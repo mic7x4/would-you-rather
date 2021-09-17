@@ -1,0 +1,22 @@
+.question {
+  min-width: fit-content;
+  .question-card {
+    margin-top: 5px;
+    width: 95%;
+    .question-header {
+      text-align: left;
+    }
+  }
+  .question-body {
+    display: flex;
+    flex-direction: row;
+    .question-content {
+      margin: 0;
+      padding: 5px 20px;
+      width: 60%;
+      h4 {
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+}

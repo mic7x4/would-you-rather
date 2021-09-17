@@ -1,0 +1,29 @@
+.header {
+  padding: 15px 0 1px 0;
+  border-bottom: 3px solid $hover-green;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .nav-links {
+    .nav-item {
+      display: inline-block;
+      padding: 10px 30px;
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+    .nav-item:hover {
+      background-color: $hover-green;
+      color: white;
+    }
+    .nav-item:active {
+      background-color: $primary-green;
+    }
+    .avatar {
+      height: 25px;
+      width: 25px;
+      border-radius: 50%;
+      margin: 0 5px -7px 15px;
+    }
+  }
+}

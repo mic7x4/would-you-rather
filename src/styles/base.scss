@@ -1,0 +1,58 @@
+* {
+  margin: auto;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid #cfcece;
+  border-radius: 2px;
+  margin: 1rem auto;
+  max-width: 600px;
+  .card-header {
+    border-bottom: 0.5px solid #cfcece;
+    padding: 10px 30px;
+    text-align: center;
+    background-color: whitesmoke;
+  }
+  .card-body {
+    padding: 5px;
+  }
+}
+
+.btn {
+  background-color: $primary-green;
+  color: white;
+  padding: 7px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: $hover-green;
+}
+.btn-poll {
+  width: 100%;
+  background-color: white;
+  color: $primary-green;
+  border: 1px solid $primary-green;
+  margin-top: 20px;
+}
+.btn-poll:hover {
+  background-color: $hover-green;
+  color: white;
+}
+.question-avatar {
+  display: flex;
+  border-right: 1px solid #cfcece;
+  margin: 0;
+  padding: 5px 20px;
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+  }
+}
