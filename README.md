@@ -7,6 +7,7 @@ The "Would You Rather App" let's you play the "Would You Rather Game".
 - Clone the repo from the following link:
 
 ```
+https://github.com/mic7x4/would-you-rather.git
 ```
 
 - Navigate to the directory where the project is cloned
